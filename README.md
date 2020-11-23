@@ -1,4 +1,4 @@
 # Project 01
-Projeto de primeiro desenvolvimento web
+Aulas e exercícios para aprendizado web
 
 Trust the process!
