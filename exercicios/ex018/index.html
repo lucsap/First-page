@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px = 1em
+            */
+            font-size: 1em;
+            /*  lighter normal bold bolder*/
+        }
+
+        h1 {
+            /* shorthand font
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ullam, assumenda quisquam iusto blanditiis error officia in nisi architecto. Debitis harum voluptatibus obcaecati et rerum amet maxime placeat molestiae vitae?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel voluptas ipsam vitae iusto, esse molestias vero cupiditate. Ea, nostrum cum hic assumenda dignissimos consectetur soluta quidem reiciendis alias quia consequatur.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam explicabo ut debitis, maiores labore repudiandae dignissimos incidunt, dicta ratione in nesciunt aperiam alias eveniet repellendus quae nostrum, commodi rem?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut blanditiis cumque odio reiciendis at, id libero dolore iusto quas, unde, ab quia hic itaque nesciunt voluptates maiores nobis odit numquam.</p>
+</body>
+</html>
