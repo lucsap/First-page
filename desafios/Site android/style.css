@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+
+@font-face {
+    font-family: 'macos';
+    src: url('');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(180, 238, 180);
+}
+
+header {
+    background-image: linear-gradient(to bottom, #6ae2a0, #044722);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'macos';
+    color: white;
+    padding: 200px auto 200px auto;
+}
+
+nav > a {
+    text-align: left;
+}
+
+main {
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 3px 6px 4px #00000052;
+}
+
+main > h2 {
+    background-color: rgb(209, 243, 209);
+}
+
+.title {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+}
+
+article {
+    background-color: rgb(217, 243, 217);
+    
+}
+
+article > aside > h2 {
+    background-color: green;
+}
+
+footer {
+    background-color: #044722;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer > p {
+
+}
