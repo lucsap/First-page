@@ -63,12 +63,12 @@ main > h2 {
     font-family: 'idroid', Arial, Helvetica, sans-serif;
 }
 
-.center {
+/* .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+  } */
 
 article {
     background-color: rgb(217, 243, 217);
